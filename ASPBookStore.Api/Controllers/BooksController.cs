@@ -41,7 +41,7 @@ namespace ASPBookStore.Api.Controllers
         // POST: api/Books
         [Authorize]
         [HttpPost]
-        public IActionResult Post([FromBody] BookDto dto, [FromServices] ICreateBookCommand command)
+        public IActionResult Post([FromForm] BookDto dto, [FromServices] ICreateBookCommand command)
         {
            
             _executor.ExecuteCommand(command, dto);
