@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "Zhq7UIpVnEFiXbM03G3Ug+k/66Us8xwmZr26s4XZbHM=",
+  "Source": "ASPBookStore.Api",
+  "BasePath": "_content/ASPBookStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPBookStore.Api\\wwwroot",
+      "Source": "ASPBookStore.Api",
+      "ContentRoot": "D:\\ASP Iva\\ASPBookStore\\ASPBookStore.Api\\wwwroot\\",
+      "BasePath": "_content/ASPBookStore.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
