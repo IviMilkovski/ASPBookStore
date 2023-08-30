@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YK0RhM0TWuX/sFEabHb2gS5spEOlthRWJAIyjqVNsAPzJ26faP4ij1WlavnPlgEK1yZLw533+P3Pghx+aASxiQ==",
+  "success": true,
+  "projectFilePath": "D:\\ASP Iva\\ASPBookStore\\ASPBookStore.Application\\ASPBookStore.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AleksandraRistić\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\AleksandraRistić\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\AleksandraRistić\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
