@@ -47,22 +47,22 @@ namespace ASPBookStore.Implementation.Extensions
         private static string apiPath = Directory.GetCurrentDirectory();
         private static string path = Path.Combine(apiPath, "wwwroot", "images");
 
-        //public static string UploadImage(IFormFile image)
-        //{
-        //    var guid = Guid.NewGuid();
-        //    var extension = Path.GetExtension(image.FileName);
+        public static string UploadImage(IFormFile image)
+        {
+           var guid = Guid.NewGuid();
+           var extension = Path.GetExtension(image.FileName);
 
-        //    var newFileName = guid + extension;
+           var newFileName = guid + extension;
 
-        //    var uploadPath = Path.Combine(path, newFileName);
+            var uploadPath = Path.Combine(path, newFileName);
 
-        //    using (var fileStream = new FileStream(uploadPath, FileMode.Create))
-        //    {
-        //        image.CopyTo(fileStream);
-        //    }
+           using (var fileStream = new FileStream(uploadPath, FileMode.Create))
+           {
+              image.CopyTo(fileStream);
+           }
 
-        //    return newFileName;
-        //}
+            return newFileName;
+        }
     }
 
 
