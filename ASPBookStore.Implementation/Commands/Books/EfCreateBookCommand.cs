@@ -36,10 +36,10 @@ namespace ASPBookStore.Implementation.Commands.Books
 
             _validator.ValidateAndThrow(request);
 
-            //var newFileName = CommandableExtensions.UploadImage(request.UploadedImage);
+            var newFileName = CommandableExtensions.UploadImage(request.UploadedImage);
 
             var book = _mapper.Map<Book>(request);
-            //book.Image = newFileName;
+            book.Image = newFileName;
 
             _context.Books.Add(book);
 
