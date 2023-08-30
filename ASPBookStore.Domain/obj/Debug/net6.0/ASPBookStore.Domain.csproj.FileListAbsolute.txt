@@ -1,0 +1,12 @@
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\bin\Debug\net6.0\ASPBookStore.Domain.deps.json
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\bin\Debug\net6.0\ASPBookStore.Domain.dll
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\bin\Debug\net6.0\ASPBookStore.Domain.pdb
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.csproj.AssemblyReference.cache
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.AssemblyInfoInputs.cache
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.AssemblyInfo.cs
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.csproj.CoreCompileInputs.cache
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.dll
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\refint\ASPBookStore.Domain.dll
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ASPBookStore.Domain.pdb
+D:\ASP Iva\ASPBookStore\ASPBookStore.Domain\obj\Debug\net6.0\ref\ASPBookStore.Domain.dll
