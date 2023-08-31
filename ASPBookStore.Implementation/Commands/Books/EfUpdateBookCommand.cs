@@ -1,8 +1,9 @@
-﻿using ASPBookStore.Application.Commands.Books;
+using ASPBookStore.Application.Commands.Books;
 using ASPBookStore.Application.Dto;
 using ASPBookStore.Application.Exceptions;
 using ASPBookStore.DataAccess;
 using ASPBookStore.Domain;
+using ASPBookStore.Implementation.Extensions;
 using ASPBookStore.Implementation.Validators.Books;
 using AutoMapper;
 using FluentValidation;
@@ -31,12 +32,15 @@ namespace ASPBookStore.Implementation.Commands.Books
 
         public string Name => "Update book command";
 
-        public void Execute(BookDto request)
+          public void Execute(BookDto request)
         {
             var book = _context.Books.Find(request.Id);
 
             if (book == null)
                 throw new EntityNotFoundException(request.Id, typeof(Book));
+
+            var newFileName = CommandableExtensions.UploadImage(request.UploadedImage);
+            book.Image = newFileName;
 
             _validator.ValidateAndThrow(request);
 
@@ -46,4 +50,5 @@ namespace ASPBookStore.Implementation.Commands.Books
         }
     }
 }
+
 
