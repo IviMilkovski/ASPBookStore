@@ -53,7 +53,7 @@ namespace ASPBookStore.Api.Controllers
         // PUT: api/Books/5
         [Authorize]
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] BookDto dto, [FromServices] IUpdateBookCommand command)
+        public IActionResult Put(int id, [FromForm] BookDto dto, [FromServices] IUpdateBookCommand command)
         {
             dto.Id = id;
 
