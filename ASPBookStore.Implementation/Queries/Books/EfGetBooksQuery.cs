@@ -19,7 +19,7 @@ namespace ASPBookStore.Implementation.Queries.Books
     {
         public int Id => 17;
 
-        public string Name => "get products query";
+        public string Name => "Get books";
 
         private readonly ASPBookStoreContext _context;
         private readonly IMapper _mapper;
